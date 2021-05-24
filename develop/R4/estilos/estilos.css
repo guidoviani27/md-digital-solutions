@@ -1,0 +1,99 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;    
+}
+
+header{
+    margin: 8vh auto;   
+    max-width: 80vw;
+}
+
+h2{
+    margin: 1vh;
+    font-size: 2rem;
+}
+
+h5{
+    margin: 2vh;
+    font-size: 1.5rem;
+}
+
+input{
+    margin-top: 1vh;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(220, 220, 220)
+}
+
+button{
+    margin-left: 1vh;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* TABLAS */
+
+.tsize{
+    margin: 8vh auto;
+    max-width: 80vw;
+    
+}
+
+table{
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    border-radius: 20px;    
+      
+}
+
+table, th, td{
+   border: 1px solid rgb(255, 255, 255);
+   border-collapse: collapse;
+   padding: 10px; 
+    
+}
+
+img{
+    border-radius: 50px;
+    margin: 2px
+}
+
+td{
+    background-color: rgb(240, 240, 240);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    .tsize {
+      max-width: 95vw;  
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .tsize {
+      max-width: 90vw;
+      overflow-x:auto;
+    }    
+  }
+  
+  @media (max-width: 640px) {
+    h2 {
+      font-size: 2rem; 
+    }
+  }
+  
+  @media (max-width: 360px) {
+    h2 {
+      font-size: 1.5rem; 
+    }
+  }
+  

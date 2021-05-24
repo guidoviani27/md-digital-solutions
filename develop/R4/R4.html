@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/estilos.css"/>
+
+    <!-- JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- TITLE -->   
+    <title>R4 - API CLIMA</title>    
+</head>
+<body>
+    <header>
+        <h2>Pronóstico de la ciudad</h2>        
+        <h5>Ingresar localidad:</h5>        
+        <input type="text" id="city" name="" value="" placeholder="Localidad"></input>
+        <button type="button" id="boton">Buscar</button>
+        
+    </header>
+    
+    <section class="tsize">
+        <table class="table">
+            <thead>
+                <tr>                                      
+                    <th>Temp. Actual</th>
+                    <th>ST</th>
+                    <th>Cielo</th>
+                    <th>Humedad</th>
+                    <th>Precip.</th>
+                    <th>Viento</th>
+                </tr>
+            </thead>
+            <tbody id="data-temp"> 
+
+            </tbody>
+        </table>
+    </section>
+    
+    <script type="text/javascript" src="js/my-app.js"></script> 
+</body>
+</html>
